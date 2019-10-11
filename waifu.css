@@ -54,6 +54,7 @@
 	cursor: -webkit-grab;
 	cursor: -o-grab;
 	cursor: -ms-grab;
+	opacity: 0.8;
 }
 #waifu #live2d:active {
 	cursor: grabbing;

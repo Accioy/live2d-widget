@@ -9,7 +9,7 @@ $("<link>").attr({ href: live2d_path + "waifu.css", rel: "stylesheet" }).appendT
 $.ajax({
 	url: live2d_path + "live2d.min.js",
 	dataType: "script",
-	opacity: 0.8,
+	opacity: 0.9,
 	cache: true
 });
 
@@ -17,7 +17,7 @@ $.ajax({
 $.ajax({
 	url: live2d_path + "waifu-tips.js",
 	dataType: "script",
-	opacity: 0.8,
+	opacity: 0.9,
 	cache: true
 });
 

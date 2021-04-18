@@ -1,6 +1,6 @@
 
 //注意：live2d_path参数应使用绝对路径
-const live2d_path = "https://cdn.jsdelivr.net/gh/accioy/live2d-widget@0.5.0/";
+const live2d_path = "https://cdn.jsdelivr.net/gh/accioy/live2d-widget@0.6.0/";
 
 //const live2d_path = "/live2d-widget/";
 
@@ -36,7 +36,7 @@ if (screen.width >= 768) {
 		initWidget({
 			waifuPath: live2d_path + "waifu-tips.json",
 			//apiPath: "https://live2d.fghrsh.net/api/",
-			cdnPath: "https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/"
+			cdnPath: "https://cdn.jsdelivr.net/gh/accioy/live2d_api@1.1/"
 		});
 	});
 }
